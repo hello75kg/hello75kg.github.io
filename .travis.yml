@@ -25,5 +25,5 @@ branches:
   only:
     - hexo
 env:
- global:
-   - GH_REF: github.com/hello75kg/hello75kg.github.io.git --{仓库地址}
+  global:
+    - GH_REF: github.com/hello75kg/hello75kg.github.io.git
