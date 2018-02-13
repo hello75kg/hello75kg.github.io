@@ -81,3 +81,13 @@ deploy:
   type: git
   repo: git@github.com:hello75kg/hello75kg.github.io.git
   branch: master 
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+
+#feed
+atom:
+  type: atom
+  path: atom.xml
+  limit: 20
