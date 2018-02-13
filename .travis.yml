@@ -1,0 +1,29 @@
+language: node_js
+node_js: stable
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+#before_script:
+ # - npm install -g gulp
+
+script:
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "hello75kg"
+  - git config user.email "jay1992@foxmail.com" --{Github账户邮箱}
+  - git add .
+  - git commit -m "travis-ci"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - hexo
+env:
+ global:
+   - GH_REF: github.com/hello75kg/hello75kg.github.io.git --{仓库地址}
