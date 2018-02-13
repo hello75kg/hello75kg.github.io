@@ -1,8 +1,12 @@
 .git
+
 .deploy_git
+
 public
+!CNAME
+
 .gitattributes
-.gitignore
+
 db.json
 # Logs
 logs
