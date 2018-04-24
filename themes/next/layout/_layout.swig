@@ -88,5 +88,15 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
+<ins class='dcmads' style='display:inline-block;width:970px;height:90px'
+    data-dbm-deal='3941508_575074'
+    data-dcm-resettable-device-id=''
+    data-dcm-child-directed=''
+    data-dcm-limit-ad-tracking=''
+    data-dcm-publisher-url=''
+    data-dcm-app-id=''
+    data-dcm-click-tracker=''>
+  <script src='https://www.googletagservices.com/dcm/dcmads.js'></script>
+</ins>
 </body>
 </html>
