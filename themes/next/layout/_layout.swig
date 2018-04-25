@@ -95,7 +95,9 @@
     data-dcm-limit-ad-tracking=''
     data-dcm-publisher-url=''
     data-dcm-app-id=''
-    data-dcm-click-tracker=''>
+    data-dcm-click-tracker=''
+    data-dcm-rendering-mode='script'
+>
   <script src='https://www.googletagservices.com/dcm/dcmads.js'></script>
 </ins>
 </body>
